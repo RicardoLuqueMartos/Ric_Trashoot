@@ -2,9 +2,17 @@ using UnityEngine;
 using NaughtyAttributes;
 using TNRD;
 using UnityEngine.Events;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField]
+    GameUIManager gameUIManager;
+
+    [Header("Enemies Pool controller")]
+    [SerializeField]
+    EnemyPool enemyPool;
+
     [Header("Input Settings")]
     [SerializeField, InputAxis] private string _horizontalAxis = "Horizontal";
     [SerializeField, InputAxis] private string _verticalAxis = "Vertical";
@@ -16,6 +24,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField, Label("Shoot")] private SerializableInterface<IShoot> _shootMechanicSerialized;
     private IShoot _shootMechanic => _shootMechanicSerialized.Value;
 
+    private void OnEnable()
+    {
+        enemyPool.gameObject.SetActive(true);
+    }
+
     void Update()
     {
         float horizontalInput = Input.GetAxisRaw(_horizontalAxis);
@@ -24,5 +37,23 @@ public class PlayerController : MonoBehaviour
 
         if(Input.GetKeyUp(KeyCode.Space))        
             _shootMechanic.DoShoot();
+    }
+    private void OnDisable()
+    {
+        enemyPool.StopPool();
+        enemyPool.ResetPool();
+        enemyPool.gameObject.SetActive(false);
+    }
+
+    public void EndGame()
+    {
+        enemyPool.ResetPool();
+        enemyPool.gameObject.SetActive(false);
+        gameUIManager.EndGame();
+    }
+
+    public void AddToScore()
+    {
+        gameUIManager.AddToScore();
     }
 }

@@ -1,13 +1,39 @@
+using NaughtyAttributes;
 using System.Collections;
 using System.Collections.Generic;
+using TNRD;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class EnemyController : MonoBehaviour
 {
+    [SerializeField]
+    PlayerController player;
+
+    [SerializeField]
+    EnemyPool enemyPool;
+
+    [SerializeField]
+    float moveSpeed = 5f;
+      
+    [SerializeField]
+    Rigidbody2D rigB2d;
+
     // Start is called before the first frame update
     void Start()
     {
         
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (player != null)
+        {
+            AimPlayer();
+
+            MoveToPlayerPosition();
+        }
     }
 
     void OnTriggerEnter2D(Collider2D col)
@@ -33,22 +59,30 @@ public class EnemyController : MonoBehaviour
     void ImpactProjectile(ProjectileController projectile)
     {
         Destroy(projectile.gameObject);
+        player.AddToScore();
+        DestroySelf();
     }
 
     void ImpactPlayer(PlayerController player)
     {
-        Destroy(player.gameObject);
-    }
 
+        player.gameObject.SetActive(false);
+        player.EndGame();
+    }
 
     void DestroySelf()
     {
-        Destroy(gameObject);
+        enemyPool.ReturnEnemyAsAvailable(gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+   void AimPlayer()
+    {     
+        Vector2 direction = player.transform.position - transform.position;
+        transform.rotation = Quaternion.FromToRotation(Vector3.up, direction);
+    }
+
+    void MoveToPlayerPosition()
     {
-        
+        rigB2d.velocity = rigB2d.transform.up * (1 * moveSpeed);
     }
 }

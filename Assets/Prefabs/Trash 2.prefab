@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
+      propertyPath: rigB2d
+      value: 
+      objectReference: {fileID: -8730656643594127293}
     - target: {fileID: 6121505016618880128, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -107,4 +111,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4

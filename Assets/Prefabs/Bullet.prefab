@@ -48,8 +48,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   col2d: {fileID: -1346961344482227545}
-  projectileSpeed: 10
+  rigB2d: {fileID: 5111448332040605325}
+  projectileSpeed: 50
   selfDestroyDelay: 3
+  spawnPoint: {fileID: 0}
 --- !u!61 &-1346961344482227545
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -121,7 +123,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &6853057534204971340
 GameObject:
   m_ObjectHideFlags: 0

@@ -72,6 +72,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
+      propertyPath: rigB2d
+      value: 
+      objectReference: {fileID: -8004548970862004439}
+    - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
+      propertyPath: moveSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
+      propertyPath: lookAtSpeed
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -111,4 +123,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
