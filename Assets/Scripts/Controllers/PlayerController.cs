@@ -1,11 +1,10 @@
 using UnityEngine;
 using NaughtyAttributes;
 using TNRD;
-using UnityEngine.Events;
-using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerController : MonoBehaviour
 {
+    #region Variables
     [SerializeField]
     GameUIManager gameUIManager;
 
@@ -23,10 +22,12 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField, Label("Shoot")] private SerializableInterface<IShoot> _shootMechanicSerialized;
     private IShoot _shootMechanic => _shootMechanicSerialized.Value;
+    #endregion Variables
 
     private void OnEnable()
     {
-        enemyPool.gameObject.SetActive(true);
+        if (enemyPool != null)      
+            enemyPool.gameObject.SetActive(true);
     }
 
     void Update()
@@ -40,9 +41,12 @@ public class PlayerController : MonoBehaviour
     }
     private void OnDisable()
     {
-        enemyPool.StopPool();
-        enemyPool.ResetPool();
-        enemyPool.gameObject.SetActive(false);
+        if (enemyPool != null)
+        {
+            enemyPool.StopPool();
+            enemyPool.ResetPool();
+            enemyPool.gameObject.SetActive(false);
+        }
     }
 
     public void EndGame()

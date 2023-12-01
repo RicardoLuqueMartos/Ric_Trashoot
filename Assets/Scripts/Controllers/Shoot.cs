@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Shoot : MonoBehaviour, IShoot
 {
+    #region Variables
     [SerializeField]
     GameObject ProjectilePrefab;
 
@@ -13,6 +14,7 @@ public class Shoot : MonoBehaviour, IShoot
 
     [SerializeField]
     GameObject ProjectileTargetPoint;
+    #endregion Variables
 
     public void DoShoot()
     {

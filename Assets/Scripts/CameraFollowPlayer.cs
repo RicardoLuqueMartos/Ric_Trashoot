@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class CameraFollowPlayer : MonoBehaviour
 {
+    #region Variables
     [SerializeField]
     GameObject player;
-
+    #endregion Variables
 
     // Update is called once per frame
     void Update()

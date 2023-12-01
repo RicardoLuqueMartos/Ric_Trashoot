@@ -1,10 +1,10 @@
-using Codice.CM.Common;
 using System;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class Movement : MonoBehaviour, IMove
 {
+    #region Variables
     [Header("Components")]
     [SerializeField] private Rigidbody2D _rb2d;
 
@@ -14,6 +14,7 @@ public class Movement : MonoBehaviour, IMove
 
     private float _horizontal;
     private float _vertical;
+    #endregion Variables
 
     public void Initialize(Rigidbody2D rb2d)
     {

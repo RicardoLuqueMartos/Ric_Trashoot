@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class EnemyPool : MonoBehaviour
 {
+    #region Variables
     [SerializeField]
     float spawnFrequency = 1f;
 
@@ -38,8 +39,7 @@ public class EnemyPool : MonoBehaviour
 
     [SerializeField]
     List<GameObject> usedSpawnersList = new List<GameObject>();
-
-  
+    #endregion Variables
 
     public void ResetPool()
     {
@@ -72,7 +72,7 @@ public class EnemyPool : MonoBehaviour
     {
         ResetPool();
 
-        InvokeRepeating("SpawnEnemyAtFrequency", spawnFrequency, spawnFrequency);
+        StartPool();
     }
 
     public void StartPool()
@@ -124,17 +124,13 @@ public class EnemyPool : MonoBehaviour
         }       
     }
 
-
     void SpawnAnEnemy(GameObject enemy)
     {
         DeployEnemyAtSpawnPoint(enemy);
-
     }
 
     void DeployEnemyAtSpawnPoint(GameObject enemy)
-    {
-        
-
+    {       
         int spawnerIndex = UnityEngine.Random.Range(0, enemiesSpawnersList.Count);
 
         enemy.transform.position = enemiesSpawnersList[spawnerIndex].transform.position;

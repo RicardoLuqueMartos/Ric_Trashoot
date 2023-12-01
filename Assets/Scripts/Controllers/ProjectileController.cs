@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ProjectileController : MonoBehaviour
 {
+    #region Variables
     [SerializeField]
     Collider2D col2d;
 
@@ -17,6 +18,7 @@ public class ProjectileController : MonoBehaviour
     float selfDestroyDelay = 3f;
 
     public GameObject spawnPoint;
+    #endregion Variables
 
     private void OnEnable()
     {

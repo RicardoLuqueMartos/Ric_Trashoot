@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class GameUIManager : MonoBehaviour
 {
+    #region Variables
     [SerializeField]
     GameObject player;
 
@@ -20,6 +21,7 @@ public class GameUIManager : MonoBehaviour
     public int score = 0;
 
     bool Locked = false;
+    #endregion Variables
 
     private void Update()
     {

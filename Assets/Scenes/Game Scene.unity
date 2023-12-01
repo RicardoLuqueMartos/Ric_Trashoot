@@ -321,11 +321,15 @@ PrefabInstance:
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -494,11 +498,15 @@ PrefabInstance:
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -525,11 +533,15 @@ PrefabInstance:
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     - target: {fileID: 6180429737886119113, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -608,11 +620,15 @@ PrefabInstance:
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     - target: {fileID: 6180429737886119113, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -788,11 +804,15 @@ PrefabInstance:
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -861,11 +881,15 @@ PrefabInstance:
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1037,11 +1061,15 @@ PrefabInstance:
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     - target: {fileID: 6180429737886119113, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1172,11 +1200,15 @@ PrefabInstance:
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1203,11 +1235,15 @@ PrefabInstance:
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     - target: {fileID: 6180429737886119113, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1338,11 +1374,15 @@ PrefabInstance:
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1421,11 +1461,15 @@ PrefabInstance:
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1870,11 +1914,15 @@ PrefabInstance:
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2125,11 +2173,15 @@ PrefabInstance:
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2296,11 +2348,15 @@ PrefabInstance:
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     - target: {fileID: 6180429737886119113, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2431,11 +2487,15 @@ PrefabInstance:
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2507,11 +2567,15 @@ PrefabInstance:
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     - target: {fileID: 6180429737886119113, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2632,11 +2696,15 @@ PrefabInstance:
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2915,11 +2983,15 @@ PrefabInstance:
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3003,11 +3075,15 @@ PrefabInstance:
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3034,11 +3110,15 @@ PrefabInstance:
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     - target: {fileID: 6180429737886119113, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3169,11 +3249,15 @@ PrefabInstance:
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3252,11 +3336,15 @@ PrefabInstance:
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3335,11 +3423,15 @@ PrefabInstance:
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3643,11 +3735,15 @@ PrefabInstance:
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3830,11 +3926,15 @@ PrefabInstance:
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3974,11 +4074,15 @@ PrefabInstance:
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4005,11 +4109,15 @@ PrefabInstance:
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     - target: {fileID: 6180429737886119113, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4365,11 +4473,15 @@ PrefabInstance:
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4448,11 +4560,15 @@ PrefabInstance:
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5303691885900083334, guid: 9f1da9370a4e8bb76a538a7e5e7fc178, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4677,11 +4793,15 @@ PrefabInstance:
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     - target: {fileID: 6180429737886119113, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4817,11 +4937,15 @@ PrefabInstance:
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: 5828949674665879976, guid: 00b6774f7a152a8d7ab155f1adca52f0, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4838,11 +4962,15 @@ PrefabInstance:
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     - target: {fileID: 6180429737886119113, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5011,11 +5139,15 @@ PrefabInstance:
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1558142310}
+      objectReference: {fileID: 1558142309}
     - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: enemyPool
       value: 
       objectReference: {fileID: 1766595430}
+    - target: {fileID: -5509331460145811713, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1558142310}
     - target: {fileID: 6180429737886119113, guid: 970cef4323628c4c1b577dcd17f8e449, type: 3}
       propertyPath: m_RootOrder
       value: -1
